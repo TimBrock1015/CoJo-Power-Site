@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>COJO Power — Electrical • Automation • Controls</title>
+  <meta name="description" content="COJO Power: Industrial electrical, automation, controls, oil & gas, and powerline services. Built on Ethics, Integrity & Partnership. Seminole, TX." />
+  <meta name="theme-color" content="#0b3b3b" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="COJO Power — Electrical • Automation • Controls" />
+  <meta property="og:description" content="Industrial electrical, automation, controls, oil & gas, and powerline services. Ethically run, safety focused." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Schema.org: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "name": "COJO Power",
+    "description": "Industrial electrical, automation, and powerline services focused on safety, quality, and integrity.",
+    "telephone": "(###) ###-####",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "561 Highway 385 N",
+      "addressLocality": "Seminole",
+      "addressRegion": "TX",
+      "postalCode": "79360",
+      "addressCountry": "US"
+    },
+    "areaServed": "Seminole, Gaines County, surrounding West Texas",
+    "url": "",
+    "sameAs": []
+  }
+  </script>
+
+  <style>
+    :root{
+      --accent:#0b6b6b;
+      --dark:#072a2a;
+      --muted:#6b6b6b;
+      --card:#ffffff;
+      --radius:12px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:#0b2b2b;
+      background: linear-gradient(180deg,#f8fbfb, #eef6f6);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;line-height:1.45}
+    header{background:var(--card);position:sticky;top:0;z-index:60;box-shadow:0 6px 18px rgba(11,43,43,0.06);border-bottom:1px solid rgba(11,43,43,0.04)}
+    .container{max-width:1100px;margin:0 auto;padding:18px}
+    .nav{display:flex;gap:18px;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center;font-weight:700}
+    .logo{
+      width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--dark));
+      display:inline-grid;place-items:center;color:white;font-weight:700;font-size:18px;
+      box-shadow:0 4px 14px rgba(11,43,43,0.12)
+    }
+    nav a{color:var(--dark);text-decoration:none;padding:10px;border-radius:8px;font-weight:600}
+    nav a:hover{background:rgba(11,107,107,0.06)}
+    .cta{background:var(--accent);color:white;padding:10px 14px;border-radius:10px;font-weight:700}
+    main{padding:36px 12px}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-bottom:34px}
+    .hero h1{font-size:30px;margin:0 0 10px}
+    .lead{color:var(--muted);margin-bottom:18px}
+    .pill{display:inline-block;background:rgba(11,107,107,0.08);color:var(--accent);padding:8px 12px;border-radius:999px;font-weight:700;margin-bottom:12px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 8px 30px rgba(11,43,43,0.06)}
+    .services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
+    .service{padding:12px;border-radius:10px;border:1px solid rgba(11,43,43,0.04);font-weight:600}
+    .small{font-size:14px;color:var(--muted)}
+    .values{display:flex;gap:12px;margin-top:16px}
+    .val{flex:1;padding:12px;border-radius:10px;background:linear-gradient(0deg,#ffffff,#f8ffff);border:1px solid rgba(11,43,43,0.03)}
+    .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+    .project{height:120px;border-radius:10px;background:linear-gradient(180deg,#eef6f6,#ffffff);display:flex;align-items:flex-end;padding:12px;font-weight:700}
+    .about{display:flex;gap:18px;align-items:center}
+    .about img{width:240px;border-radius:10px;object-fit:cover}
+    .contact-grid{display:grid;grid-template-columns:1fr 360px;gap:16px}
+    form label{display:block;font-size:13px;margin-bottom:6px;font-weight:700}
+    input,textarea,select{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(11,43,43,0.08);font-size:15px}
+    button{background:var(--dark);color:white;padding:12px 14px;border-radius:10px;border:0;font-weight:700}
+    footer{padding:18px 0;text-align:center;color:var(--muted);font-size:14px;margin-top:26px}
+    /* Responsive */
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr; text-align:left}
+      .projects{grid-template-columns:repeat(2,1fr)}
+      .contact-grid{grid-template-columns:1fr}
+      nav a{display:none}
+      .mobile-menu{display:inline-block}
+    }
+    @media (max-width:520px){
+      .projects{grid-template-columns:1fr}
+      .brand{gap:8px}
+      .hero h1{font-size:24px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">CP</div>
+        <div>
+          <div style="font-size:14px;color:var(--muted)">COJO Power</div>
+          <div style="font-size:12px;color:var(--muted);font-weight:600">Electrical • Automation • Controls</div>
+        </div>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <span class="pill">Seminole • West Texas</span>
+        <h1>Dependable electrical & industrial automation services — built on Ethics & Integrity.</h1>
+        <p class="lead">COJO Power delivers professional electrical construction, industrial controls, oil & gas support, and powerline/underground services. We show up, communicate clearly, and treat every client like a long-term partner.</p>
+
+        <div style="display:flex;gap:12px;margin-top:18px">
+          <a href="#contact" class="cta" style="text-decoration:none">Request a Quote</a>
+          <a href="#projects" style="text-decoration:none;padding:10px 14px;border-radius:10px;background:transparent;border:1px solid rgba(11,43,43,0.06);font-weight:700">View Projects</a>
+        </div>
+
+        <div class="values" aria-hidden="false">
+          <div class="val">
+            <div style="font-weight:800">Ethics</div>
+            <div class="small">Transparent pricing, no hidden surprises.</div>
+          </div>
+          <div class="val">
+            <div style="font-weight:800">Safety</div>
+            <div class="small">OSHA-aware crews & strict jobsite practices.</div>
+          </div>
+          <div class="val">
+            <div style="font-weight:800">Partnership</div>
+            <div class="small">We work with clients, not just for them.</div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="card" aria-label="Contact card">
+        <div style="font-weight:800;font-size:16px">Get Reliable Field Support</div>
+        <div class="small" style="margin-top:6px">Fast response for troubleshooting, installs, and emergency support in West Texas.</div>
+
+        <div style="margin-top:12px">
+          <div style="font-weight:700">Phone</div>
+          <div class="small">(###) ###-####</div>
+
+          <div style="font-weight:700;margin-top:10px">Address</div>
+          <div class="small">561 Highway 385 N<br>Seminole, TX 79360</div>
+
+          <div style="margin-top:12px">
+            <a href="#contact" class="cta" style="display:inline-block">Contact Us</a>
+          </div>
+        </div>
+
+        <div style="margin-top:14px" class="small">
+          <strong>Services:</strong>
+          <div class="services-grid" style="margin-top:8px">
+            <div class="service">Automation & Controls</div>
+            <div class="service">Electrical Construction</div>
+            <div class="service">Oil & Gas Systems</div>
+            <div class="service">Powerline & Underground</div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <h2 style="margin-bottom:8px">Our Services</h2>
+      <p class="small">Comprehensive electrical and automation services for industrial, commercial, and oil & gas operations.</p>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:12px">
+        <div class="card">
+          <h3>Industrial Automation & Controls</h3>
+          <p class="small">PLC programming, HMI/SCADA, control panel design & build, drives & motor control, system integration, and on-site commissioning.</p>
+          <ul style="margin-top:8px">
+            <li>Allen-Bradley, Siemens, Schneider PLCs</li>
+            <li>HMI/SCADA design & troubleshooting</li>
+            <li>Panel wiring, labeling, and documentation</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Electrical Construction & Maintenance</h3>
+          <p class="small">Industrial and commercial electrical installations, equipment wiring, power distribution, lighting, and preventative maintenance.</p>
+          <ul style="margin-top:8px">
+            <li>Switchgear and distribution panels</li>
+            <li>Routine inspections and corrective maintenance</li>
+            <li>Emergency response & troubleshooting</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Oil & Gas Electrical & Controls</h3>
+          <p class="small">Pump station electrics, instrumentation interface, control logic for production sites, and field-servicing for measurement systems.</p>
+        </div>
+
+        <div class="card">
+          <h3>Powerline & Underground</h3>
+          <p class="small">Utility coordination, trenching & conduit installations, underground distribution, metering, and pole line support.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" style="margin-top:22px">
+      <h2>Selected Projects</h2>
+      <p class="small">Real-world work that demonstrates quality, documentation, and safe execution.</p>
+
+      <div class="projects">
+        <div class="project">Control Panel Build — Pump Station</div>
+        <div class="project">PLC Upgrade — Manufacturing Line</div>
+        <div class="project">Underground Conduit — New Distribution</div>
+        <div class="project">Emergency Repair — Wellsite Power</div>
+        <div class="project">Field Commissioning — VFD Systems</div>
+        <div class="project">Powerline Support — Utility Tie-In</div>
+      </div>
+
+      <p class="small" style="margin-top:10px">Want to showcase photos? Replace the project tiles above with images of panels, field crews, and completed installs to increase trust.</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" style="margin-top:22px">
+      <h2>About COJO Power</h2>
+      <div class="about">
+        <div>
+          <p class="small">COJO Power was founded to deliver dependable electrical and automation services with clear communication and uncompromising integrity. We are a small, experienced crew who values long-term relationships over short-term profit. That means precise estimates, clean job sites, and complete documentation.</p>
+
+          <h4 style="margin-top:8px">Why choose us</h4>
+          <ul>
+            <li>Licensed, insured, and safety-focused teams.</li>
+            <li>Transparent estimates and honest timelines.</li>
+            <li>Hands-on project ownership — we stand behind our work.</li>
+          </ul>
+        </div>
+
+        <img src="https://via.placeholder.com/480x320?text=Team+Photo" alt="Team at work or control panel" />
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" style="margin-top:22px">
+      <h2>Contact</h2>
+      <p class="small">Ready to partner with a contractor who values integrity? Reach out and we'll respond promptly.</p>
+
+      <div class="contact-grid" style="margin-top:12px">
+        <div class="card">
+          <form id="contactForm" onsubmit="handleSubmit(event)">
+            <label for="name">Name</label>
+            <input id="name" name="name" required placeholder="Your full name" />
+
+            <label for="company" style="margin-top:8px">Company</label>
+            <input id="company" name="company" placeholder="Optional" />
+
+            <label for="email" style="margin-top:8px">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com" />
+
+            <label for="phone" style="margin-top:8px">Phone</label>
+            <input id="phone" name="phone" placeholder="(###) ###-####" />
+
+            <label for="message" style="margin-top:8px">Message / Project Details</label>
+            <textarea id="message" name="message" rows="5" placeholder="Brief project description, location, and any timing constraints" required></textarea>
+
+            <div style="display:flex;gap:8px;margin-top:10px">
+              <button type="submit">Send Message</button>
+              <button type="button" onclick="location.href='mailto:you@yourcompany.com?subject=Quote%20Request'">Email</button>
+            </div>
+          </form>
+
+          <div style="margin-top:12px" class="small">
+            <strong>Address</strong><br>
+            561 Highway 385 N<br>
+            Seminole, TX 79360
+          </div>
+        </div>
+
+        <div class="card small" aria-hidden="false">
+          <h3>Service Area</h3>
+          <p>Seminole, Gaines County, and surrounding West Texas. Available for project work across the Permian region by request.</p>
+
+          <h3 style="margin-top:12px">Emergency Support</h3>
+          <p class="small">Call our on-call number for urgent field troubleshooting and site emergencies.</p>
+
+          <h3 style="margin-top:12px">Certifications</h3>
+          <ul>
+            <li>Licensed & Insured</li>
+            <li>OSHA Jobsite Safety</li>
+            <li>Manufacturer-authorized system integration</li>
+          </ul>
+
+          <div style="margin-top:12px">
+            <!-- Map placeholder: replace with actual embed or static map link -->
+            <div style="border-radius:10px;overflow:hidden;border:1px solid rgba(11,43,43,0.06)">
+              <img alt="Map placeholder" src="https://via.placeholder.com/360x220?text=Map+or+Embed+Here" style="width:100%;display:block" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="small">© <span id="year"></span> COJO Power — Electrical • Automation • Controls — 561 Highway 385 N, Seminole, TX 79360</div>
+    </footer>
+  </main>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Simple contact handler: this example sends data to the user's email via mailto as fallback.
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const company = document.getElementById('company').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const subject = encodeURIComponent('Website Contact: ' + name);
+      const body = encodeURIComponent(
+        'Name: ' + name + '\\n' +
+        (company ? ('Company: ' + company + '\\n') : '') +
+        'Email: ' + email + '\\n' +
+        'Phone: ' + phone + '\\n\\n' +
+        'Message:\\n' + message
+      );
+
+      // open default mail client
+      window.location.href = `mailto:you@yourcompany.com?subject=${subject}&body=${body}`;
+    }
+  </script>
+</body>
+</html>
